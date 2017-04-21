@@ -4,8 +4,6 @@ import com.alibaba.fastjson.JSON;
 import com.zsq.bean.Message;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.RecordMetadata;
-import org.apache.kafka.common.Metric;
-import org.apache.kafka.common.MetricName;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaOperations;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -13,7 +11,6 @@ import org.springframework.kafka.support.ProducerListener;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
-import java.util.Map;
 import java.util.UUID;
 
 /**
